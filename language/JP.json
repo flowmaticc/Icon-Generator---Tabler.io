@@ -1,0 +1,137 @@
+{
+  "_language_name": "日本語",
+  "app": {
+    "title": "Flowmatic — アイコンジェネレーター",
+    "brand": "/ アイコンジェネレーター",
+    "subtitle": "アイコンの設定と生成"
+  },
+  "language": {
+    "label": "言語:"
+  },
+  "search": {
+    "placeholder": "入力して絞り込み..."
+  },
+  "ui": {
+    "preview": "プレビュー",
+    "size": "サイズ:",
+    "sizes": "サイズ一覧:",
+    "color": "カラー:",
+    "colors": "カラー一覧:",
+    "background": "背景:",
+    "stroke": "線幅 (Stroke):",
+    "search": "検索:",
+    "filter": "🔍 フィルター:",
+    "icons_count": "アイコン ({count})",
+    "additional_icons": "━━━ 追加アイコン ━━━"
+  },
+  "sections": {
+    "generation_config": "生成設定",
+    "console": "コンソール"
+  },
+  "buttons": {
+    "tabler_list": "📋 Tabler 一覧",
+    "add_icon": "➕ アイコンを追加",
+    "change_variant": "🔄 バリアント変更",
+    "remove_icon": "✖ アイコンを削除",
+    "select_all": "✅ すべて選択",
+    "deselect_all": "❌ 選択解除",
+    "all": "✅ すべて",
+    "none": "❌ なし",
+    "add": "➕ 追加",
+    "delete": "✖ 削除",
+    "generate": "🚀 アイコンを生成",
+    "generating": "⏳ 生成中...",
+    "cancel": "キャンセル",
+    "change": "変更",
+    "view_tabler": "🌐 tabler.io で全件表示"
+  },
+  "options": {
+    "overwrite": "既存のファイルを上書き",
+    "organize": "サブフォルダに整理"
+  },
+  "status": {
+    "loading_icons": "アイコンを読み込み中...",
+    "generation_summary": "📊 {icons} 個のアイコン × {sizes} 種のサイズ × {colors} 色 × {strokes} 種の線幅 = 計 {total} ファイル"
+  },
+  "messages": {
+    "select_icon": "アイコンを選択してください",
+    "info": "情報",
+    "error": "エラー",
+    "warning": "警告",
+    "confirm": "確認",
+    "already_in_list": "'{icon}' は既にリストに存在します",
+    "icon_exists": "アイコン '{icon}' は既に存在します",
+    "select_requirements": "アイコン、サイズ、カラー、線幅をそれぞれ1つ以上選択してください",
+    "no_icons": "利用可能なアイコンがありません。\n'➕ アイコンを追加' ボタンから追加してください。",
+    "not_found": "見つかりません",
+    "icon_not_found": "'{icon}' が見つかりません",
+    "error_detail": "エラー: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' は Flowmatic に必要な基本アイコンです。\n削除できません。",
+    "confirm_remove_icon": "アイコン '{icon}' を削除しますか？",
+    "select_color_to_remove": "削除するカラーを1つ以上選択してください",
+    "cannot_remove_accent": "アクセントカラー (ライム) は削除できません。",
+    "confirm_remove_colors": "{count} 色を削除しますか？"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Tabler アイコンセレクター",
+    "tabler_select": "リストからアイコンを選択 (プレビュー付き):",
+    "custom_title": "➕ カスタムアイコンを追加",
+    "custom_select": "アイコンを検索して選択:",
+    "change_variant_title": "{emoji} '{icon}' のバリアントを変更",
+    "change_variant": "'{icon}' のバリアントを選択:",
+    "color_name_title": "カラー名",
+    "color_name": "カラー名:",
+    "choose_color": "カラーを選択"
+  },
+  "colors": {
+    "accent": "アクセント (ライム)",
+    "muted": "ミュート (控えめ)",
+    "text": "テキスト",
+    "red": "レッド",
+    "green": "グリーン",
+    "blue": "ブルー",
+    "orange": "オレンジ",
+    "purple": "パープル",
+    "pink": "ピンク",
+    "teal": "ティール",
+    "yellow": "イエロー",
+    "cyan": "シアン",
+    "white": "ホワイト",
+    "black": "ブラック"
+  },
+  "background": {
+    "black": "ブラック",
+    "white": "ホワイト",
+    "dark_gray": "ダークグレー",
+    "light_gray": "ライトグレー",
+    "surface": "サーフェス (背景層)",
+    "color_prefix": "背景: "
+  },
+  "color": {
+    "default_name": "カラー_{number}"
+  },
+  "logs": {
+    "downloading": "📥 アイコンをダウンロード中...",
+    "icons_ready": "✅ アイコンの準備が完了しました！",
+    "generating": "🚀 アイコンを生成中...",
+    "icons_count": "📦 アイコン数: {count}",
+    "sizes": "📐 サイズ: {values}",
+    "colors": "🎨 カラー: {values}",
+    "strokes": "📏 線幅: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg をダウンロードしました",
+    "icon_http_error": "  ❌ {icon}.svg が見つかりません (HTTP {status})",
+    "download_error": "  ❌ {icon} のダウンロードエラー: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 アイコンを変更: {old} → {new}",
+    "icon_removed": "🗑️ アイコンを削除: {icon}",
+    "icon_added": "✅ アイコンを追加: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg が見つかりません",
+    "color_added": "✅ カラーを追加: {name} ({color})",
+    "colors_removed": "🗑️ {count} 色を削除しました",
+    "generated_progress": "  ✅ {count} ファイル生成完了...",
+    "generated": "✅ {count} 個のアイコンを生成しました",
+    "generation_errors": "⚠️ エラー: {count} 件"
+  }
+}

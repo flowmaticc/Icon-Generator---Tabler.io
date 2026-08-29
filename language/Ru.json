@@ -1,0 +1,137 @@
+{
+  "_language_name": "Русский",
+  "app": {
+    "title": "Flowmatic — Генератор иконок",
+    "brand": "/ генератор иконок",
+    "subtitle": "Настройте и сгенерируйте иконки"
+  },
+  "language": {
+    "label": "Язык:"
+  },
+  "search": {
+    "placeholder": "Введите текст для фильтрации..."
+  },
+  "ui": {
+    "preview": "Предпросмотр",
+    "size": "Размер:",
+    "sizes": "Размеры:",
+    "color": "Цвет:",
+    "colors": "Цвета:",
+    "background": "Фон:",
+    "stroke": "Толщина обводки:",
+    "search": "Поиск:",
+    "filter": "🔍 Фильтр:",
+    "icons_count": "Иконки ({count})",
+    "additional_icons": "━━━ Дополнительные иконки ━━━"
+  },
+  "sections": {
+    "generation_config": "Параметры генерации",
+    "console": "Консоль"
+  },
+  "buttons": {
+    "tabler_list": "📋 Список Tabler",
+    "add_icon": "➕ Добавить иконку",
+    "change_variant": "🔄 Изменить вариант",
+    "remove_icon": "✖ Удалить иконку",
+    "select_all": "✅ Выбрать все",
+    "deselect_all": "❌ Снять выбор",
+    "all": "✅ Все",
+    "none": "❌ Ни одного",
+    "add": "➕ Добавить",
+    "delete": "✖ Удалить",
+    "generate": "🚀 Сгенерировать иконки",
+    "generating": "⏳ Генерация...",
+    "cancel": "Отмена",
+    "change": "Изменить",
+    "view_tabler": "🌐 Посмотреть все на tabler.io"
+  },
+  "options": {
+    "overwrite": "Перезаписывать существующие файлы",
+    "organize": "Сортировать по подпапкам"
+  },
+  "status": {
+    "loading_icons": "Загрузка иконок...",
+    "generation_summary": "📊 {icons} иконок × {sizes} размеров × {colors} цветов × {strokes} обводок = {total} файлов"
+  },
+  "messages": {
+    "select_icon": "Выберите иконку",
+    "info": "Информация",
+    "error": "Ошибка",
+    "warning": "Предупреждение",
+    "confirm": "Подтвердить",
+    "already_in_list": "'{icon}' уже есть в списке",
+    "icon_exists": "Иконка '{icon}' уже существует",
+    "select_requirements": "Выберите хотя бы одну иконку, размер, цвет и толщину обводки",
+    "no_icons": "Нет доступных иконок.\nДобавьте иконки с помощью кнопки '➕ Добавить иконку'.",
+    "not_found": "Не найдено",
+    "icon_not_found": "'{icon}' не найдено",
+    "error_detail": "Ошибка: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' является базовой иконкой для Flowmatic.\nЕе нельзя удалить.",
+    "confirm_remove_icon": "Удалить иконку '{icon}'?",
+    "select_color_to_remove": "Выберите хотя бы один цвет для удаления",
+    "cannot_remove_accent": "Нельзя удалить акцентный цвет (Лайм).",
+    "confirm_remove_colors": "Удалить цвета ({count})?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Выбор иконок Tabler",
+    "tabler_select": "Выберите иконку из списка (с предпросмотром):",
+    "custom_title": "➕ Добавить пользовательскую иконку",
+    "custom_select": "Найдите и выберите иконку:",
+    "change_variant_title": "{emoji} Изменить вариант для '{icon}'",
+    "change_variant": "Выберите вариант для '{icon}':",
+    "color_name_title": "Название цвета",
+    "color_name": "Название цвета:",
+    "choose_color": "Выберите цвет"
+  },
+  "colors": {
+    "accent": "Акцентный (Лайм)",
+    "muted": "Приглушенный",
+    "text": "Текст",
+    "red": "Красный",
+    "green": "Зеленый",
+    "blue": "Синий",
+    "orange": "Оранжевый",
+    "purple": "Фиолетовый",
+    "pink": "Розовый",
+    "teal": "Бирюзовый",
+    "yellow": "Желтый",
+    "cyan": "Голубой",
+    "white": "Белый",
+    "black": "Черный"
+  },
+  "background": {
+    "black": "Черный",
+    "white": "Белый",
+    "dark_gray": "Темно-серый",
+    "light_gray": "Светло-серый",
+    "surface": "Поверхность",
+    "color_prefix": "Фон: "
+  },
+  "color": {
+    "default_name": "Цвет_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Скачивание иконок...",
+    "icons_ready": "✅ Иконки готовы!",
+    "generating": "🚀 Генерация иконок...",
+    "icons_count": "📦 Иконки: {count}",
+    "sizes": "📐 Размеры: {values}",
+    "colors": "🎨 Цвета: {values}",
+    "strokes": "📏 Обводки: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg скачан",
+    "icon_http_error": "  ❌ {icon}.svg не найден (HTTP {status})",
+    "download_error": "  ❌ Ошибка скачивания {icon}: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Иконка изменена: {old} → {new}",
+    "icon_removed": "🗑️ Иконка удалена: {icon}",
+    "icon_added": "✅ Иконка добавлена: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg не найден",
+    "color_added": "✅ Цвет добавлен: {name} ({color})",
+    "colors_removed": "🗑️ Удалено цветов: {count}",
+    "generated_progress": "  ✅ Сгенерировано файлов: {count}...",
+    "generated": "✅ Сгенерировано иконок: {count}",
+    "generation_errors": "⚠️ Ошибок: {count}"
+  }
+}

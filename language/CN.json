@@ -1,0 +1,137 @@
+{
+  "_language_name": "简体中文",
+  "app": {
+    "title": "Flowmatic — 图标生成器",
+    "brand": "/ 图标生成器",
+    "subtitle": "配置并生成您的图标"
+  },
+  "language": {
+    "label": "语言："
+  },
+  "search": {
+    "placeholder": "输入以筛选..."
+  },
+  "ui": {
+    "preview": "预览",
+    "size": "尺寸：",
+    "sizes": "尺寸：",
+    "color": "颜色：",
+    "colors": "颜色：",
+    "background": "背景：",
+    "stroke": "描边：",
+    "search": "搜索：",
+    "filter": "🔍 筛选：",
+    "icons_count": "图标 ({count})",
+    "additional_icons": "━━━ 附加图标 ━━━"
+  },
+  "sections": {
+    "generation_config": "生成设置",
+    "console": "控制台"
+  },
+  "buttons": {
+    "tabler_list": "📋 Tabler 列表",
+    "add_icon": "➕ 添加图标",
+    "change_variant": "🔄 更改样式",
+    "remove_icon": "✖ 移除图标",
+    "select_all": "✅ 全选",
+    "deselect_all": "❌ 全不选",
+    "all": "✅ 全部",
+    "none": "❌ 无",
+    "add": "➕ 添加",
+    "delete": "✖ 删除",
+    "generate": "🚀 生成图标",
+    "generating": "⏳ 生成中...",
+    "cancel": "取消",
+    "change": "更改",
+    "view_tabler": "🌐 在 tabler.io 上查看全部"
+  },
+  "options": {
+    "overwrite": "覆盖现有文件",
+    "organize": "按子文件夹归类"
+  },
+  "status": {
+    "loading_icons": "正在加载图标...",
+    "generation_summary": "📊 {icons} 个图标 × {sizes} 种尺寸 × {colors} 种颜色 × {strokes} 种描边 = {total} 个文件"
+  },
+  "messages": {
+    "select_icon": "请选择一个图标",
+    "info": "提示",
+    "error": "错误",
+    "warning": "警告",
+    "confirm": "确认",
+    "already_in_list": "“{icon}”已在列表中",
+    "icon_exists": "图标“{icon}”已存在",
+    "select_requirements": "请至少选择一个图标、尺寸、颜色和描边粗细",
+    "no_icons": "暂无可用图标。\n请使用“➕ 添加图标”按钮添加。",
+    "not_found": "未找到",
+    "icon_not_found": "未找到“{icon}”",
+    "error_detail": "错误：{error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "“{icon}”是 Flowmatic 的基础必备图标，无法删除。",
+    "confirm_remove_icon": "确定要移除图标“{icon}”吗？",
+    "select_color_to_remove": "请至少选择一种要删除的颜色",
+    "cannot_remove_accent": "无法删除强调色 (青柠绿)。",
+    "confirm_remove_colors": "确定删除 {count} 种颜色吗？"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Tabler 图标选择器",
+    "tabler_select": "从列表中选择图标（带预览）：",
+    "custom_title": "➕ 添加自定义图标",
+    "custom_select": "搜索并选择图标：",
+    "change_variant_title": "{emoji} 更改“{icon}”的变体样式",
+    "change_variant": "为“{icon}”选择变体样式：",
+    "color_name_title": "颜色名称",
+    "color_name": "颜色名称：",
+    "choose_color": "选择颜色"
+  },
+  "colors": {
+    "accent": "强调色 (青柠)",
+    "muted": "柔和/次要",
+    "text": "文本色",
+    "red": "红色",
+    "green": "绿色",
+    "blue": "蓝色",
+    "orange": "橙色",
+    "purple": "紫色",
+    "pink": "粉色",
+    "teal": "蓝绿色",
+    "yellow": "黄色",
+    "cyan": "青色",
+    "white": "白色",
+    "black": "黑色"
+  },
+  "background": {
+    "black": "黑色",
+    "white": "白色",
+    "dark_gray": "深灰",
+    "light_gray": "浅灰",
+    "surface": "表面/背景层",
+    "color_prefix": "背景："
+  },
+  "color": {
+    "default_name": "颜色_{number}"
+  },
+  "logs": {
+    "downloading": "📥 正在下载图标...",
+    "icons_ready": "✅ 图标就绪！",
+    "generating": "🚀 正在生成图标...",
+    "icons_count": "📦 图标：{count}",
+    "sizes": "📐 尺寸：{values}",
+    "colors": "🎨 颜色：{values}",
+    "strokes": "📏 描边：{values}",
+    "icon_downloaded": "  ✅ {icon}.svg 下载完成",
+    "icon_http_error": "  ❌ 未找到 {icon}.svg (HTTP {status})",
+    "download_error": "  ❌ 下载 {icon} 失败：{error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 图标已更名/更换：{old} → {new}",
+    "icon_removed": "🗑️ 已移除图标：{icon}",
+    "icon_added": "✅ 已添加图标：{icon}",
+    "icon_missing": "  ⚠️ 未找到 {icon}.svg",
+    "color_added": "✅ 已添加颜色：{name} ({color})",
+    "colors_removed": "🗑️ 已删除 {count} 种颜色",
+    "generated_progress": "  ✅ 已生成 {count} 个文件...",
+    "generated": "✅ 已生成 {count} 个图标",
+    "generation_errors": "⚠️ {count} 个错误"
+  }
+}

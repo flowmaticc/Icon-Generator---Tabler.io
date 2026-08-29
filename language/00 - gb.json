@@ -1,0 +1,137 @@
+{
+  "_language_name": "English",
+  "app": {
+    "title": "Flowmatic — Icon Generator",
+    "brand": "/ icon generator",
+    "subtitle": "Configure and generate your icons"
+  },
+  "language": {
+    "label": "Language:"
+  },
+  "search": {
+    "placeholder": "Type to filter..."
+  },
+  "ui": {
+    "preview": "Preview",
+    "size": "Size:",
+    "sizes": "Sizes:",
+    "color": "Color:",
+    "colors": "Colors:",
+    "background": "Background:",
+    "stroke": "Stroke:",
+    "search": "Search:",
+    "filter": "🔍 Filter:",
+    "icons_count": "Icons ({count})",
+    "additional_icons": "━━━ Additional Icons ━━━"
+  },
+  "sections": {
+    "generation_config": "Generation Settings",
+    "console": "Console"
+  },
+  "buttons": {
+    "tabler_list": "📋 Tabler List",
+    "add_icon": "➕ Add Icon",
+    "change_variant": "🔄 Change Variant",
+    "remove_icon": "✖ Remove Icon",
+    "select_all": "✅ Select All",
+    "deselect_all": "❌ Deselect All",
+    "all": "✅ All",
+    "none": "❌ None",
+    "add": "➕ Add",
+    "delete": "✖ Delete",
+    "generate": "🚀 Generate Icons",
+    "generating": "⏳ Generating...",
+    "cancel": "Cancel",
+    "change": "Change",
+    "view_tabler": "🌐 View all on tabler.io"
+  },
+  "options": {
+    "overwrite": "Overwrite existing files",
+    "organize": "Organize into subfolders"
+  },
+  "status": {
+    "loading_icons": "Loading icons...",
+    "generation_summary": "📊 {icons} icons × {sizes} sizes × {colors} colors × {strokes} strokes = {total} files"
+  },
+  "messages": {
+    "select_icon": "Select an icon",
+    "info": "Info",
+    "error": "Error",
+    "warning": "Warning",
+    "confirm": "Confirm",
+    "already_in_list": "'{icon}' is already in the list",
+    "icon_exists": "Icon '{icon}' already exists",
+    "select_requirements": "Select at least one icon, size, color, and stroke weight",
+    "no_icons": "No icons available.\nAdd icons using the '➕ Add Icon' button.",
+    "not_found": "Not found",
+    "icon_not_found": "'{icon}' not found",
+    "error_detail": "Error: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' is a required base icon for Flowmatic.\nIt cannot be deleted.",
+    "confirm_remove_icon": "Remove icon '{icon}'?",
+    "select_color_to_remove": "Select at least one color to remove",
+    "cannot_remove_accent": "Cannot remove Accent color (Lime).",
+    "confirm_remove_colors": "Remove {count} colors?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Tabler Icon Selector",
+    "tabler_select": "Select an icon from the list (with preview):",
+    "custom_title": "➕ Add Custom Icon",
+    "custom_select": "Search and select an icon:",
+    "change_variant_title": "{emoji} Change variant for '{icon}'",
+    "change_variant": "Select a variant for '{icon}':",
+    "color_name_title": "Color Name",
+    "color_name": "Color name:",
+    "choose_color": "Select a color"
+  },
+  "colors": {
+    "accent": "Accent (Lime)",
+    "muted": "Muted",
+    "text": "Text",
+    "red": "Red",
+    "green": "Green",
+    "blue": "Blue",
+    "orange": "Orange",
+    "purple": "Purple",
+    "pink": "Pink",
+    "teal": "Teal",
+    "yellow": "Yellow",
+    "cyan": "Cyan",
+    "white": "White",
+    "black": "Black"
+  },
+  "background": {
+    "black": "Black",
+    "white": "White",
+    "dark_gray": "Dark Gray",
+    "light_gray": "Light Gray",
+    "surface": "Surface",
+    "color_prefix": "Background: "
+  },
+  "color": {
+    "default_name": "Color_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Downloading icons...",
+    "icons_ready": "✅ Icons ready!",
+    "generating": "🚀 Generating icons...",
+    "icons_count": "📦 Icons: {count}",
+    "sizes": "📐 Sizes: {values}",
+    "colors": "🎨 Colors: {values}",
+    "strokes": "📏 Strokes: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg downloaded",
+    "icon_http_error": "  ❌ {icon}.svg not found (HTTP {status})",
+    "download_error": "  ❌ Error downloading {icon}: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Icon changed: {old} → {new}",
+    "icon_removed": "🗑️ Icon removed: {icon}",
+    "icon_added": "✅ Icon added: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg not found",
+    "color_added": "✅ Color added: {name} ({color})",
+    "colors_removed": "🗑️ Removed {count} colors",
+    "generated_progress": "  ✅ {count} files generated...",
+    "generated": "✅ Generated {count} icons",
+    "generation_errors": "⚠️ {count} errors"
+  }
+}

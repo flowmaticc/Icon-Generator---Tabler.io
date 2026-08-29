@@ -1,0 +1,137 @@
+{
+  "_language_name": "Deutsch",
+  "app": {
+    "title": "Flowmatic — Icon-Generator",
+    "brand": "/ Icon-Generator",
+    "subtitle": "Konfigurieren und generieren Sie Ihre Icons"
+  },
+  "language": {
+    "label": "Sprache:"
+  },
+  "search": {
+    "placeholder": "Zum Filtern tippen..."
+  },
+  "ui": {
+    "preview": "Vorschau",
+    "size": "Größe:",
+    "sizes": "Größen:",
+    "color": "Farbe:",
+    "colors": "Farben:",
+    "background": "Hintergrund:",
+    "stroke": "Strichstärke:",
+    "search": "Suchen:",
+    "filter": "🔍 Filtern:",
+    "icons_count": "Icons ({count})",
+    "additional_icons": "━━━ Zusätzliche Icons ━━━"
+  },
+  "sections": {
+    "generation_config": "Generierungseinstellungen",
+    "console": "Konsole"
+  },
+  "buttons": {
+    "tabler_list": "📋 Tabler-Liste",
+    "add_icon": "➕ Icon hinzufügen",
+    "change_variant": "🔄 Variante ändern",
+    "remove_icon": "✖ Icon entfernen",
+    "select_all": "✅ Alle auswählen",
+    "deselect_all": "❌ Alle abwählen",
+    "all": "✅ Alle",
+    "none": "❌ Keine",
+    "add": "➕ Hinzufügen",
+    "delete": "✖ Löschen",
+    "generate": "🚀 Icons generieren",
+    "generating": "⏳ WIRD GENERIERT...",
+    "cancel": "Abbrechen",
+    "change": "Ändern",
+    "view_tabler": "🌐 Alle auf tabler.io anzeigen"
+  },
+  "options": {
+    "overwrite": "Bestehende Dateien überschreiben",
+    "organize": "In Unterordnern organisieren"
+  },
+  "status": {
+    "loading_icons": "Icons werden geladen...",
+    "generation_summary": "📊 {icons} Icons × {sizes} Größen × {colors} Farben × {strokes} Strichstärken = {total} Dateien"
+  },
+  "messages": {
+    "select_icon": "Wählen Sie ein Icon aus",
+    "info": "Info",
+    "error": "Fehler",
+    "warning": "Warnung",
+    "confirm": "Bestätigen",
+    "already_in_list": "'{icon}' ist bereits in der Liste",
+    "icon_exists": "Das Icon '{icon}' existiert bereits",
+    "select_requirements": "Wählen Sie mindestens ein Icon, eine Größe, eine Farbe und eine Strichstärke aus",
+    "no_icons": "Keine Icons verfügbar.\nFügen Sie Icons über die Schaltfläche '➕ Icon hinzufügen' hinzu.",
+    "not_found": "Nicht gefunden",
+    "icon_not_found": "'{icon}' nicht gefunden",
+    "error_detail": "Fehler: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' ist ein erforderliches Basis-Icon für Flowmatic.\nEs kann nicht gelöscht werden.",
+    "confirm_remove_icon": "Icon '{icon}' entfernen?",
+    "select_color_to_remove": "Wählen Sie mindestens eine Farbe zum Entfernen aus",
+    "cannot_remove_accent": "Die Akzentfarbe (Limettengrün) kann nicht entfernt werden.",
+    "confirm_remove_colors": "{count} Farben entfernen?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Tabler Icon-Auswahl",
+    "tabler_select": "Wählen Sie ein Icon aus der Liste (mit Vorschau):",
+    "custom_title": "➕ Benutzerdefiniertes Icon hinzufügen",
+    "custom_select": "Suchen und wählen Sie ein Icon aus:",
+    "change_variant_title": "{emoji} Variante für '{icon}' ändern",
+    "change_variant": "Wählen Sie eine Variante für '{icon}':",
+    "color_name_title": "Farbname",
+    "color_name": "Farbname:",
+    "choose_color": "Farbe auswählen"
+  },
+  "colors": {
+    "accent": "Akzent (Limettengrün)",
+    "muted": "Gedämpft",
+    "text": "Text",
+    "red": "Rot",
+    "green": "Grün",
+    "blue": "Blau",
+    "orange": "Orange",
+    "purple": "Violett",
+    "pink": "Rosa",
+    "teal": "Cyan-Grün",
+    "yellow": "Gelb",
+    "cyan": "Cyan",
+    "white": "Weiß",
+    "black": "Schwarz"
+  },
+  "background": {
+    "black": "Schwarz",
+    "white": "Weiß",
+    "dark_gray": "Dunkelgrau",
+    "light_gray": "Hellgrau",
+    "surface": "Oberfläche",
+    "color_prefix": "Hintergrund: "
+  },
+  "color": {
+    "default_name": "Farbe_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Icons werden heruntergeladen...",
+    "icons_ready": "✅ Icons bereit!",
+    "generating": "🚀 Icons werden generiert...",
+    "icons_count": "📦 Icons: {count}",
+    "sizes": "📐 Größen: {values}",
+    "colors": "🎨 Farben: {values}",
+    "strokes": "📏 Strichstärken: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg heruntergeladen",
+    "icon_http_error": "  ❌ {icon}.svg nicht gefunden (HTTP {status})",
+    "download_error": "  ❌ Fehler beim Herunterladen von {icon}: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Icon geändert: {old} → {new}",
+    "icon_removed": "🗑️ Icon entfernt: {icon}",
+    "icon_added": "✅ Icon hinzugefügt: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg nicht gefunden",
+    "color_added": "✅ Farbe hinzugefügt: {name} ({color})",
+    "colors_removed": "🗑️ {count} Farben entfernt",
+    "generated_progress": "  ✅ {count} Dateien generiert...",
+    "generated": "✅ {count} Icons generiert",
+    "generation_errors": "⚠️ {count} Fehler"
+  }
+}
