@@ -1,0 +1,137 @@
+{
+  "_language_name": "한국어 (KR)",
+  "app": {
+    "title": "Flowmatic — 아이콘 생성기",
+    "brand": "/ 아이콘 생성기",
+    "subtitle": "아이콘 설정 및 생성"
+  },
+  "language": {
+    "label": "언어:"
+  },
+  "search": {
+    "placeholder": "필터링할 텍스트 입력..."
+  },
+  "ui": {
+    "preview": "미리보기",
+    "size": "크기:",
+    "sizes": "크기 목록:",
+    "color": "색상:",
+    "colors": "색상 목록:",
+    "background": "배경:",
+    "stroke": "선 두께 (Stroke):",
+    "search": "검색:",
+    "filter": "🔍 필터:",
+    "icons_count": "아이콘 ({count})",
+    "additional_icons": "━━━ 추가 아이콘 ━━━"
+  },
+  "sections": {
+    "generation_config": "생성 설정",
+    "console": "콘솔"
+  },
+  "buttons": {
+    "tabler_list": "📋 Tabler 목록",
+    "add_icon": "➕ 아이콘 추가",
+    "change_variant": "🔄 변형 변경",
+    "remove_icon": "✖ 아이콘 제거",
+    "select_all": "✅ 전체 선택",
+    "deselect_all": "❌ 선택 해제",
+    "all": "✅ 전체",
+    "none": "❌ 없음",
+    "add": "➕ 추가",
+    "delete": "✖ 삭제",
+    "generate": "🚀 아이콘 생성",
+    "generating": "⏳ 생성 중...",
+    "cancel": "취소",
+    "change": "변경",
+    "view_tabler": "🌐 tabler.io에서 모두 보기"
+  },
+  "options": {
+    "overwrite": "기존 파일 덮어쓰기",
+    "organize": "하위 폴더로 정리"
+  },
+  "status": {
+    "loading_icons": "아이콘 불러오는 중...",
+    "generation_summary": "📊 아이콘 {icons}개 × 크기 {sizes}개 × 색상 {colors}개 × 선 두께 {strokes}개 = 총 {total}개 파일"
+  },
+  "messages": {
+    "select_icon": "아이콘을 선택하세요",
+    "info": "정보",
+    "error": "오류",
+    "warning": "경고",
+    "confirm": "확인",
+    "already_in_list": "'{icon}'은(는) 이미 목록에 있습니다",
+    "icon_exists": "'{icon}' 아이콘이 이미 존재합니다",
+    "select_requirements": "최소 하나 이상의 아이콘, 크기, 색상 및 선 두께를 선택하세요",
+    "no_icons": "사용 가능한 아이콘이 없습니다.\n'➕ 아이콘 추가' 버튼을 눌러 추가하세요.",
+    "not_found": "찾을 수 없음",
+    "icon_not_found": "'{icon}'을(를) 찾을 수 없습니다",
+    "error_detail": "오류: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}'은(는) Flowmatic에 필요한 기본 아이콘이므로 삭제할 수 없습니다.",
+    "confirm_remove_icon": "'{icon}' 아이콘을 제거하시겠습니까?",
+    "select_color_to_remove": "제거할 색상을 하나 이상 선택하세요",
+    "cannot_remove_accent": "포인트 색상(라임)은 제거할 수 없습니다.",
+    "confirm_remove_colors": "{count}개의 색상을 제거하시겠습니까?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Tabler 아이콘 선택기",
+    "tabler_select": "목록에서 아이콘 선택 (미리보기 포함):",
+    "custom_title": "➕ 사용자 지정 아이콘 추가",
+    "custom_select": "아이콘 검색 및 선택:",
+    "change_variant_title": "{emoji} '{icon}'의 변형 스타일 변경",
+    "change_variant": "'{icon}'의 변형 스타일을 선택하세요:",
+    "color_name_title": "색상 이름",
+    "color_name": "색상 이름:",
+    "choose_color": "색상 선택"
+  },
+  "colors": {
+    "accent": "포인트 (라임)",
+    "muted": "차분한 톤",
+    "text": "텍스트",
+    "red": "빨강",
+    "green": "초록",
+    "blue": "파랑",
+    "orange": "주황",
+    "purple": "보라",
+    "pink": "분홍",
+    "teal": "청록",
+    "yellow": "노랑",
+    "cyan": "시안",
+    "white": "흰색",
+    "black": "검정"
+  },
+  "background": {
+    "black": "검정",
+    "white": "흰색",
+    "dark_gray": "진한 회색",
+    "light_gray": "연한 회색",
+    "surface": "서피스 (배경 레이어)",
+    "color_prefix": "배경: "
+  },
+  "color": {
+    "default_name": "색상_{number}"
+  },
+  "logs": {
+    "downloading": "📥 아이콘 다운로드 중...",
+    "icons_ready": "✅ 아이콘 준비 완료!",
+    "generating": "🚀 아이콘 생성 중...",
+    "icons_count": "📦 아이콘 수: {count}",
+    "sizes": "📐 크기: {values}",
+    "colors": "🎨 색상: {values}",
+    "strokes": "📏 선 두께: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg 다운로드 완료",
+    "icon_http_error": "  ❌ {icon}.svg를 찾을 수 없음 (HTTP {status})",
+    "download_error": "  ❌ {icon} 다운로드 오류: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 아이콘 변경됨: {old} → {new}",
+    "icon_removed": "🗑️ 아이콘 제거됨: {icon}",
+    "icon_added": "✅ 아이콘 추가됨: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg를 찾을 수 없음",
+    "color_added": "✅ 색상 추가됨: {name} ({color})",
+    "colors_removed": "🗑️ {count}개 색상 제거됨",
+    "generated_progress": "  ✅ {count}개 파일 생성 완료...",
+    "generated": "✅ {count}개 아이콘 생성 완료",
+    "generation_errors": "⚠️ 오류 {count}개"
+  }
+}

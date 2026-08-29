@@ -1,0 +1,137 @@
+{
+  "_language_name": "Valencià",
+  "app": {
+    "title": "Flowmatic — Generador d'Icones",
+    "brand": "/ generador d'icones",
+    "subtitle": "Configura i genera les teues icones"
+  },
+  "language": {
+    "label": "Idioma:"
+  },
+  "search": {
+    "placeholder": "Escriu per a filtrar..."
+  },
+  "ui": {
+    "preview": "Previsualització",
+    "size": "Mida:",
+    "sizes": "Mides:",
+    "color": "Color:",
+    "colors": "Colors:",
+    "background": "Fons:",
+    "stroke": "Traç:",
+    "search": "Cercar:",
+    "filter": "🔍 Filtrar:",
+    "icons_count": "Icones ({count})",
+    "additional_icons": "━━━ Icones addicionals ━━━"
+  },
+  "sections": {
+    "generation_config": "Configuració de generació",
+    "console": "Consola"
+  },
+  "buttons": {
+    "tabler_list": "📋 Llista Tabler",
+    "add_icon": "➕ Afegir icona",
+    "change_variant": "🔄 Canviar variant",
+    "remove_icon": "✖ Eliminar icona",
+    "select_all": "✅ Seleccionar tot",
+    "deselect_all": "❌ Deseleccionar tot",
+    "all": "✅ Tots",
+    "none": "❌ Cap",
+    "add": "➕ Afegir",
+    "delete": "✖ Esborrar",
+    "generate": "🚀 Generar icones",
+    "generating": "⏳ Generant...",
+    "cancel": "Cancel·lar",
+    "change": "Canviar",
+    "view_tabler": "🌐 Veure tot en tabler.io"
+  },
+  "options": {
+    "overwrite": "Sobreescriure els fitxers existents",
+    "organize": "Organitzar en subcarpetes"
+  },
+  "status": {
+    "loading_icons": "Carregant icones...",
+    "generation_summary": "📊 {icons} icones × {sizes} mides × {colors} colors × {strokes} meandres/traços = {total} fitxers"
+  },
+  "messages": {
+    "select_icon": "Selecciona una icona",
+    "info": "Informació",
+    "error": "Error",
+    "warning": "Avís",
+    "confirm": "Confirmar",
+    "already_in_list": "'{icon}' ja està en la llista",
+    "icon_exists": "La icona '{icon}' ja existeix",
+    "select_requirements": "Selecciona almenys una icona, mida, color i traç",
+    "no_icons": "No hi ha icones disponibles.\nAfig icones utilitzant el botó '➕ Afegir icona'.",
+    "not_found": "No trobat",
+    "icon_not_found": "'{icon}' no s'ha trobat",
+    "error_detail": "Error: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' és una icona base necessària per a l'aplicació Flowmatic.\nNo es pot esborrar.",
+    "confirm_remove_icon": "¿Vols eliminar la icona '{icon}'?",
+    "select_color_to_remove": "Selecciona almenys un color per a eliminar",
+    "cannot_remove_accent": "No es pot eliminar el color Accent (Llima).",
+    "confirm_remove_colors": "¿Vols eliminar {count} colors?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Selector d'icones de Tabler",
+    "tabler_select": "Selecciona una icona de la llista (amb previsualització):",
+    "custom_title": "➕ Afegir icona personalitzada",
+    "custom_select": "Cerca i selecciona una icona:",
+    "change_variant_title": "{emoji} Canviar variant de '{icon}'",
+    "change_variant": "Selecciona una variant per a '{icon}':",
+    "color_name_title": "Nom del color",
+    "color_name": "Nom del color:",
+    "choose_color": "Tria un color"
+  },
+  "colors": {
+    "accent": "Accent (Llima)",
+    "muted": "Atenuat",
+    "text": "Text",
+    "red": "Roig",
+    "green": "Verd",
+    "blue": "Blau",
+    "orange": "Taronja",
+    "purple": "Morat",
+    "pink": "Rosa",
+    "teal": "Blau verdós",
+    "yellow": "Groc",
+    "cyan": "Cian",
+    "white": "Blanc",
+    "black": "Negre"
+  },
+  "background": {
+    "black": "Negre",
+    "white": "Blanc",
+    "dark_gray": "Gris fosc",
+    "light_gray": "Gris clar",
+    "surface": "Superfície",
+    "color_prefix": "Fons: "
+  },
+  "color": {
+    "default_name": "Color_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Descarregant icones...",
+    "icons_ready": "✅ Icones llestes!",
+    "generating": "🚀 Generant icones...",
+    "icons_count": "📦 Icones: {count}",
+    "sizes": "📐 Mides: {values}",
+    "colors": "🎨 Colors: {values}",
+    "strokes": "📏 Traços: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg descarregat",
+    "icon_http_error": "  ❌ {icon}.svg no s'ha trobat (HTTP {status})",
+    "download_error": "  ❌ Error en descarregar {icon}: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Icona canviada: {old} → {new}",
+    "icon_removed": "🗑️ Icona eliminada: {icon}",
+    "icon_added": "✅ Icona afegida: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg no s'ha trobat",
+    "color_added": "✅ Color afegit: {name} ({color})",
+    "colors_removed": "🗑️ Eliminats {count} colors",
+    "generated_progress": "  ✅ {count} fitxers generats...",
+    "generated": "✅ Generades {count} icones",
+    "generation_errors": "⚠️ {count} errors"
+  }
+}

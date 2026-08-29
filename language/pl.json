@@ -1,0 +1,137 @@
+{
+  "_language_name": "Polski",
+  "app": {
+    "title": "Flowmatic — Generator ikona",
+    "brand": "/ generator ikon",
+    "subtitle": "Skonfiguruj i wygeneruj swoje ikony"
+  },
+  "language": {
+    "label": "Język:"
+  },
+  "search": {
+    "placeholder": "Wpisz, aby przefiltrować..."
+  },
+  "ui": {
+    "preview": "Podgląd",
+    "size": "Rozmiar:",
+    "sizes": "Rozmiary:",
+    "color": "Kolor:",
+    "colors": "Kolory:",
+    "background": "Tło:",
+    "stroke": "Grubość linii:",
+    "search": "Szukaj:",
+    "filter": "🔍 Filtruj:",
+    "icons_count": "Ikony ({count})",
+    "additional_icons": "━━━ Dodatkowe ikony ━━━"
+  },
+  "sections": {
+    "generation_config": "Ustawienia generowania",
+    "console": "Konsola"
+  },
+  "buttons": {
+    "tabler_list": "📋 Lista Tabler",
+    "add_icon": "➕ Dodaj ikonę",
+    "change_variant": "🔄 Zmień wariant",
+    "remove_icon": "✖ Usuń ikonę",
+    "select_all": "✅ Zaznacz wszystko",
+    "deselect_all": "❌ Odznacz wszystko",
+    "all": "✅ Wszystkie",
+    "none": "❌ Brak",
+    "add": "➕ Dodaj",
+    "delete": "✖ Usuń",
+    "generate": "🚀 Generuj ikony",
+    "generating": "⏳ Generowanie...",
+    "cancel": "Anuluj",
+    "change": "Zmień",
+    "view_tabler": "🌐 Wyświetl wszystkie na tabler.io"
+  },
+  "options": {
+    "overwrite": "Nadpisuj istniejące pliki",
+    "organize": "Organizuj w podfolderach"
+  },
+  "status": {
+    "loading_icons": "Wczytywanie ikon...",
+    "generation_summary": "📊 {icons} ikon × {sizes} rozmiarów × {colors} kolorów × {strokes} grubości = {total} plików"
+  },
+  "messages": {
+    "select_icon": "Wybierz ikonę",
+    "info": "Informacja",
+    "error": "Błąd",
+    "warning": "Ostrzeżenie",
+    "confirm": "Potwierdź",
+    "already_in_list": "'{icon}' znajduje się już na liście",
+    "icon_exists": "Ikona '{icon}' już istnieje",
+    "select_requirements": "Wybierz co najmniej jedną ikonę, rozmiar, kolor i grubość linii",
+    "no_icons": "Brak dostępnych ikon.\nDodaj ikony za pomocą przycisku '➕ Dodaj ikonę'.",
+    "not_found": "Nie znaleziono",
+    "icon_not_found": "Nie znaleziono '{icon}'",
+    "error_detail": "Błąd: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' jest bazową ikoną wymaganą dla Flowmatic.\nNie można jej usunąć.",
+    "confirm_remove_icon": "Usunąć ikonę '{icon}'?",
+    "select_color_to_remove": "Wybierz co najmniej jeden kolor do usunięcia",
+    "cannot_remove_accent": "Nie można usunąć koloru akcentu (Limonkowy).",
+    "confirm_remove_colors": "Usunąć {count} kolorów?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Wybór ikon Tabler",
+    "tabler_select": "Wybierz ikonę z listy (z podglądem):",
+    "custom_title": "➕ Dodaj własną ikonę",
+    "custom_select": "Wyszukaj i wybierz ikonę:",
+    "change_variant_title": "{emoji} Zmień wariant dla '{icon}'",
+    "change_variant": "Wybierz wariant dla '{icon}':",
+    "color_name_title": "Nazwa koloru",
+    "color_name": "Nazwa koloru:",
+    "choose_color": "Wybierz kolor"
+  },
+  "colors": {
+    "accent": "Akcent (Limonkowy)",
+    "muted": "Stłumiony",
+    "text": "Tekst",
+    "red": "Czerwony",
+    "green": "Zielony",
+    "blue": "Niebieski",
+    "orange": "Pomarańczowy",
+    "purple": "Fioletowy",
+    "pink": "Różowy",
+    "teal": "Ciemnoturkusowy",
+    "yellow": "Żółty",
+    "cyan": "Cyjan",
+    "white": "Biały",
+    "black": "Czarny"
+  },
+  "background": {
+    "black": "Czarny",
+    "white": "Biały",
+    "dark_gray": "Ciemnoszary",
+    "light_gray": "Jasnoszary",
+    "surface": "Powierzchnia",
+    "color_prefix": "Tło: "
+  },
+  "color": {
+    "default_name": "Kolor_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Pobieranie ikon...",
+    "icons_ready": "✅ Ikony gotowe!",
+    "generating": "🚀 Generowanie ikon...",
+    "icons_count": "📦 Ikony: {count}",
+    "sizes": "📐 Rozmiary: {values}",
+    "colors": "🎨 Kolory: {values}",
+    "strokes": "📏 Grubość linii: {values}",
+    "icon_downloaded": "  ✅ Pobrano {icon}.svg",
+    "icon_http_error": "  ❌ Nie znaleziono {icon}.svg (HTTP {status})",
+    "download_error": "  ❌ Błąd pobierania {icon}: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Zmieniono ikonę: {old} → {new}",
+    "icon_removed": "🗑️ Usunięto ikonę: {icon}",
+    "icon_added": "✅ Dodano ikonę: {icon}",
+    "icon_missing": "  ⚠️ Nie znaleziono {icon}.svg",
+    "color_added": "✅ Dodano kolor: {name} ({color})",
+    "colors_removed": "🗑️ Usunięto {count} kolorów",
+    "generated_progress": "  ✅ Wygenerowano {count} plików...",
+    "generated": "✅ Wygenerowano ikony ({count})",
+    "generation_errors": "⚠️ Liczba błędów: {count}"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "_language_name": "Türkçe",
+  "app": {
+    "title": "Flowmatic — Simge Oluşturucu",
+    "brand": "/ simge oluşturucu",
+    "subtitle": "Simgelerinizi yapılandırın ve oluşturun"
+  },
+  "language": {
+    "label": "Dil:"
+  },
+  "search": {
+    "placeholder": "Filtrelemek için yazın..."
+  },
+  "ui": {
+    "preview": "Önizleme",
+    "size": "Boyut:",
+    "sizes": "Boyutlar:",
+    "color": "Renk:",
+    "colors": "Renkler:",
+    "background": "Arka Plan:",
+    "stroke": "Çizgi Kalınlığı:",
+    "search": "Ara:",
+    "filter": "🔍 Filtrele:",
+    "icons_count": "Simgeler ({count})",
+    "additional_icons": "━━━ Ek Simgeler ━━━"
+  },
+  "sections": {
+    "generation_config": "Oluşturma Ayarları",
+    "console": "Konsol"
+  },
+  "buttons": {
+    "tabler_list": "📋 Tabler Listesi",
+    "add_icon": "➕ Simge Ekle",
+    "change_variant": "🔄 Varyantı Değiştir",
+    "remove_icon": "✖ Simgeyi Kaldır",
+    "select_all": "✅ Tümünü Seç",
+    "deselect_all": "❌ Seçimi Kaldır",
+    "all": "✅ Tümü",
+    "none": "❌ Hiçbiri",
+    "add": "➕ Ekle",
+    "delete": "✖ Sil",
+    "generate": "🚀 Simgeleri Oluştur",
+    "generating": "⏳ Oluşturuluyor...",
+    "cancel": "İptal",
+    "change": "Değiştir",
+    "view_tabler": "🌐 Hepsini tabler.io'da gör"
+  },
+  "options": {
+    "overwrite": "Mevcut dosyaların üzerine yaz",
+    "organize": "Alt klasörler halinde düzenle"
+  },
+  "status": {
+    "loading_icons": "Simgeler yükleniyor...",
+    "generation_summary": "📊 {icons} simge × {sizes} boyut × {colors} renk × {strokes} çizgi kalınlığı = {total} dosya"
+  },
+  "messages": {
+    "select_icon": "Bir simge seçin",
+    "info": "Bilgi",
+    "error": "Hata",
+    "warning": "Uyarı",
+    "confirm": "Onayla",
+    "already_in_list": "'{icon}' zaten listede var",
+    "icon_exists": "'{icon}' simgesi zaten mevcut",
+    "select_requirements": "En az bir simge, boyut, renk ve çizgi kalınlığı seçin",
+    "no_icons": "Kullanılabilir simge yok.\n'➕ Simge Ekle' düğmesini kullanarak simgeler ekleyin.",
+    "not_found": "Bulunamadı",
+    "icon_not_found": "'{icon}' bulunamadı",
+    "error_detail": "Hata: {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' Flowmatic için gerekli temel bir simgedir.\nSilinemez.",
+    "confirm_remove_icon": "'{icon}' simgesi kaldırılsın mı?",
+    "select_color_to_remove": "Kaldırmak için en az bir renk seçin",
+    "cannot_remove_accent": "Vurgu rengi (Açık Yeşil) kaldırılamaz.",
+    "confirm_remove_colors": "{count} renk kaldırılsın mı?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Tabler Simge Seçici",
+    "tabler_select": "Listedenci bir simge seçin (önizlemeli):",
+    "custom_title": "➕ Özel Simge Ekle",
+    "custom_select": "Bir simge arayın ve seçin:",
+    "change_variant_title": "{emoji} '{icon}' için varyantı değiştir",
+    "change_variant": "'{icon}' için bir varyant seçin:",
+    "color_name_title": "Renk Adı",
+    "color_name": "Renk adı:",
+    "choose_color": "Bir renk seçin"
+  },
+  "colors": {
+    "accent": "Vurgu (Açık Yeşil)",
+    "muted": "Mat",
+    "text": "Metin",
+    "red": "Kırmızı",
+    "green": "Yeşil",
+    "blue": "Mavi",
+    "orange": "Turuncu",
+    "purple": "Mor",
+    "pink": "Pembe",
+    "teal": "Camgöbeği",
+    "yellow": "Sarı",
+    "cyan": "Siyan",
+    "white": "Beyaz",
+    "black": "Siyah"
+  },
+  "background": {
+    "black": "Siyah",
+    "white": "Beyaz",
+    "dark_gray": "Koyu Gri",
+    "light_gray": "Açık Gri",
+    "surface": "Yüzey",
+    "color_prefix": "Arka Plan: "
+  },
+  "color": {
+    "default_name": "Renk_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Simgeler indiriliyor...",
+    "icons_ready": "✅ Simgeler hazır!",
+    "generating": "🚀 Simgeler oluşturuluyor...",
+    "icons_count": "📦 Simgeler: {count}",
+    "sizes": "📐 Boyutlar: {values}",
+    "colors": "🎨 Renkler: {values}",
+    "strokes": "📏 Çizgi Kalınlıkları: {values}",
+    "icon_downloaded": "  ✅ {icon}.svg indirildi",
+    "icon_http_error": "  ❌ {icon}.svg bulunamadı (HTTP {status})",
+    "download_error": "  ❌ {icon} indirilirken hata oluştu: {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Simge değiştirildi: {old} → {new}",
+    "icon_removed": "🗑️ Simge kaldırıldı: {icon}",
+    "icon_added": "✅ Simge eklendi: {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg bulunamadı",
+    "color_added": "✅ Renk eklendi: {name} ({color})",
+    "colors_removed": "🗑️ {count} renk kaldırıldı",
+    "generated_progress": "  ✅ {count} dosya oluşturuldu...",
+    "generated": "✅ {count} simge oluşturuldu",
+    "generation_errors": "⚠️ {count} hata"
+  }
+}

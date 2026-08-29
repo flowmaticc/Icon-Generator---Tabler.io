@@ -1,0 +1,137 @@
+{
+  "_language_name": "Français",
+  "app": {
+    "title": "Flowmatic — Générateur d'icônes",
+    "brand": "/ générateur d'icônes",
+    "subtitle": "Configurez et générez vos icônes"
+  },
+  "language": {
+    "label": "Langue :"
+  },
+  "search": {
+    "placeholder": "Saisissez pour filtrer..."
+  },
+  "ui": {
+    "preview": "Aperçu",
+    "size": "Taille :",
+    "sizes": "Tailles :",
+    "color": "Couleur :",
+    "colors": "Couleurs :",
+    "background": "Arrière-plan :",
+    "stroke": "Épaisseur du trait :",
+    "search": "Rechercher :",
+    "filter": "🔍 Filtrer :",
+    "icons_count": "Icônes ({count})",
+    "additional_icons": "━━━ Icônes supplémentaires ━━━"
+  },
+  "sections": {
+    "generation_config": "Paramètres de génération",
+    "console": "Console"
+  },
+  "buttons": {
+    "tabler_list": "📋 Liste Tabler",
+    "add_icon": "➕ Ajouter une icône",
+    "change_variant": "🔄 Changer de variante",
+    "remove_icon": "✖ Supprimer l'icône",
+    "select_all": "✅ Tout sélectionner",
+    "deselect_all": "❌ Tout désélectionner",
+    "all": "✅ Tous",
+    "none": "❌ Aucun",
+    "add": "➕ Ajouter",
+    "delete": "✖ Supprimer",
+    "generate": "🚀 Générer les icônes",
+    "generating": "⏳ Génération...",
+    "cancel": "Annuler",
+    "change": "Changer",
+    "view_tabler": "🌐 Voir tout sur tabler.io"
+  },
+  "options": {
+    "overwrite": "Remplacer les fichiers existants",
+    "organize": "Organiser en sous-dossiers"
+  },
+  "status": {
+    "loading_icons": "Chargement des icônes...",
+    "generation_summary": "📊 {icons} icônes × {sizes} tailles × {colors} couleurs × {strokes} traits = {total} fichiers"
+  },
+  "messages": {
+    "select_icon": "Sélectionnez une icône",
+    "info": "Information",
+    "error": "Erreur",
+    "warning": "Avertissement",
+    "confirm": "Confirmer",
+    "already_in_list": "'{icon}' est déjà dans la liste",
+    "icon_exists": "L'icône '{icon}' existe déjà",
+    "select_requirements": "Sélectionnez au moins une icône, une taille, une couleur et une épaisseur de trait",
+    "no_icons": "Aucune icône disponible.\nAjoutez des icônes à l'aide du bouton '➕ Ajouter une icône'.",
+    "not_found": "Introuvable",
+    "icon_not_found": "'{icon}' introuvable",
+    "error_detail": "Erreur : {error}",
+    "selected_icon": "📌 {icon}",
+    "base_icon_warning": "'{icon}' est une icône de base requise pour Flowmatic.\nElle ne peut pas être supprimée.",
+    "confirm_remove_icon": "Supprimer l'icône '{icon}' ?",
+    "select_color_to_remove": "Sélectionnez au moins une couleur à supprimer",
+    "cannot_remove_accent": "Impossible de supprimer la couleur d'accentuation (Lime).",
+    "confirm_remove_colors": "Supprimer {count} couleurs ?"
+  },
+  "dialogs": {
+    "tabler_title": "📋 Sélecteur d'icônes Tabler",
+    "tabler_select": "Sélectionnez une icône dans la liste (avec aperçu) :",
+    "custom_title": "➕ Ajouter une icône personnalisée",
+    "custom_select": "Recherchez et sélectionnez une icône :",
+    "change_variant_title": "{emoji} Changer la variante de '{icon}'",
+    "change_variant": "Sélectionnez une variante pour '{icon}' :",
+    "color_name_title": "Nom de la couleur",
+    "color_name": "Nom de la couleur :",
+    "choose_color": "Choisir une couleur"
+  },
+  "colors": {
+    "accent": "Accentuation (Lime)",
+    "muted": "Estompé",
+    "text": "Texte",
+    "red": "Rouge",
+    "green": "Vert",
+    "blue": "Bleu",
+    "orange": "Orange",
+    "purple": "Violet",
+    "pink": "Rose",
+    "teal": "Cyan foncé",
+    "yellow": "Jaune",
+    "cyan": "Cyan",
+    "white": "Blanc",
+    "black": "Noir"
+  },
+  "background": {
+    "black": "Noir",
+    "white": "Blanc",
+    "dark_gray": "Gris foncé",
+    "light_gray": "Gris clair",
+    "surface": "Surface",
+    "color_prefix": "Arrière-plan : "
+  },
+  "color": {
+    "default_name": "Couleur_{number}"
+  },
+  "logs": {
+    "downloading": "📥 Téléchargement des icônes...",
+    "icons_ready": "✅ Icônes prêtes !",
+    "generating": "🚀 Génération des icônes...",
+    "icons_count": "📦 Icônes : {count}",
+    "sizes": "📐 Tailles : {values}",
+    "colors": "🎨 Couleurs : {values}",
+    "strokes": "📏 Traits : {values}",
+    "icon_downloaded": "  ✅ {icon}.svg téléchargé",
+    "icon_http_error": "  ❌ {icon}.svg non trouvé (HTTP {status})",
+    "download_error": "  ❌ Erreur de téléchargement de {icon} : {error}",
+    "download_error_short": "  ❌ {icon}.svg ({error})",
+    "icon_http_error_short": "  ❌ {icon}.svg (HTTP {status})",
+    "icon_changed": "🔄 Icône modifiée : {old} → {new}",
+    "icon_removed": "🗑️ Icône supprimée : {icon}",
+    "icon_added": "✅ Icône ajoutée : {icon}",
+    "icon_missing": "  ⚠️ {icon}.svg introuvable",
+    "color_added": "✅ Couleur ajoutée : {name} ({color})",
+    "colors_removed": "🗑️ {count} couleurs supprimées",
+    "generated_progress": "  ✅ {count} fichiers générés...",
+    "generated": "✅ {count} icônes générées",
+    "generation_errors": "⚠️ {count} erreurs"
+  }
+}
