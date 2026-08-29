@@ -50,4 +50,10 @@ Perfecta para **diseñadores, desarrolladores y cualquier persona** que necesite
 
 <img width="1388" height="847" alt="image" src="https://github.com/user-attachments/assets/cea503f4-109a-4a3b-93e2-d1be3ef73f42" />
 
+<p align="center">
+  <img src="./media/2026-08-29%20150559.gif" alt="Icon Generator Demo" width="900">
+</p>
 
+<p align="center">
+  <img src="./media/2026-08-29 151129.gif" alt="Icon Generator Demo" width="900">
+</p>
